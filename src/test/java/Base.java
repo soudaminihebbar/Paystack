@@ -3,6 +3,8 @@ import org.testng.annotations.BeforeTest;
 
 public class Base {
 
+    public static int id;
+
     @BeforeTest
     public void setup() {
         RestAssured.baseURI = "https://api.paystack.co/page";
