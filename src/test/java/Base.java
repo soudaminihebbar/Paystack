@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeTest;
 public class Base {
 
     public static int id;
+    public static String name;
 
     @BeforeTest
     public void setup() {

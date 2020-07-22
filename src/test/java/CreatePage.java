@@ -21,6 +21,7 @@ public class CreatePage extends Base {
                 .statusCode(200)
                 .extract();
         id = response.jsonPath().get("data.id");
+        name = response.jsonPath().get("data.name");
     }
 
 
